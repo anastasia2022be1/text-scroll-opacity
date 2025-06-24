@@ -1,0 +1,44 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    min-block-size: 100%;
+    height: 100%;
+    line-height: 1;
+}
+
+img, svg {
+    vertical-align: top;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+ul li, ol li {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+textarea, input, select, button {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+    background: inherit;
+    border: none;
+}

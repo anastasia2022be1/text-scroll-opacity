@@ -1,0 +1,47 @@
+@import url('reset.css');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: #262c37;
+}
+
+.wrapper {
+}
+
+.some-section {
+    height: 100svh;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.text-section {
+    position: relative;
+    min-height: 200svh;
+}
+
+.text-section__wrapper {
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    min-height: 100svh;
+    align-items: center;
+}
+
+.text-section__value {
+    font-size: 2.375rem;
+    font-weight: 900;
+    line-height: 1.3;
+    max-width: 50rem;
+    padding-block: 1.25rem;
+    padding-inline: 0.9375rem;
+    margin: 0 auto;
+}
+
+.text-section__mask {
+    height: 16.666%;
+    position: absolute;
+    width: 100%;
+    top: 3.333%;
+    left: 0;
+}
