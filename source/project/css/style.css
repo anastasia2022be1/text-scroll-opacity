@@ -45,3 +45,34 @@ body {
     top: 3.333%;
     left: 0;
 }
+
+@media (max-width: 768px) {
+  .text-section__value {
+    font-size: 1.5rem; 
+    padding-block: 1rem;
+    padding-inline: 1rem;
+    max-width: 100%; 
+  }
+
+  .text-section__wrapper {
+    padding-inline: 1rem;
+  }
+
+  .text-section__mask {
+    height: 20%;
+    top: 5%;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .text-section__value {
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
+
+  .text-section__mask {
+    height: 25%;
+    top: 10%;
+  }
+}
