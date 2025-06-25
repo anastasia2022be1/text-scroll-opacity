@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Text Scroll Opacity</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="some-section"></div>
+      <div class="text-section">
+        <div class="text-section__wrapper">
+          <p
+            class="text-section__value"
+            data-text-speed="500"
+            data-text-opacity="0.2"
+          >
+            This project demonstrates a text scroll opacity effect using pure
+            JavaScript and CSS. As you scroll through the page, each word
+            gradually fades in when it enters a specific mask area. The speed of
+            the animation and the starting opacity can be customized through
+            data attributes. The goal is to create a smooth reading experience
+            and visually guide the user’s attention through long-form content.
+            The effect is responsive and works on both desktop and mobile
+            devices.
+          </p>
+        </div>
+        <div class="text-section__mask"></div>
+      </div>
+      <div class="some-section"></div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
